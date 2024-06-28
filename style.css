@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family:"Nanum Gothic", sans-serif;
+}
+
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head{
+  display:flex;
+     justify-content:space-between;}
+
+.headername{
+  text-align:center;
+}
+
+.headername >h1{
+  font-size: 50px;
+  color:#1b8c76;
+  font-weight:800;
+}
+
+
+
+.menulist{
+  list-style:none;
+  display:flex;
+  justify-content: center;
+  padding:0;
+  margin:0;
+}
+
+.menulist >li{
+  margin:0 5% 0 5%;
+  color:#1B8C76;
+  font-weight:700;
+}
+
+.menulist >li >a{
+  color:#1B8C76;
+  text-decoration-line:none;
+  transition: transform 0.3s color 0.3s;
+}
+
+
+
+.menulist >li>a:hover{
+  color:#045847;
+  transform: translateY(-3px);
+}
+
+
+
+
+.fakeimg{
+  height:400px;
+  background: #aaa;
+}
+
+
+.halfimg{
+  width:100%
+}
+
+.topic{
+  color:#1b8c76;
+  font-size:35px;
+  font-weight:700;
+
+  }
+
+
+.subtopic{
+  color:#004d3d;
+  font-size:25px;
+  font-weight:550;
+
+  }
+
+.mbtn{
+  background-color:#1b8c76;
+  color:#ffff;
+  width:160px;
+  height:30px;
+  border:0px;
+  border-radius:2px;
+  margin-top:20px;
+  transition:background-color 1.0s;
+  
+  
+}
+
+.mbtn:hover{
+  background-color:#1ac1a0;
+}
+
+.intro{
+  height:80vh;
+;
+}
+
+.effect{height:80vh;}
+
+.description{
+  height:80vh;
+  margin-bottom:30;
+}
+
+.spec{height:80vh;
+}
+
+.certificates{height:80vh;}
+
+.purchase{height:80vh;}
+
+.smtopic{
+  color:#3c5d56;
+  font-size:25px;
+  font-weight:550;
+  margin-bottom:30px;
+  text-align:center;
+}
+
+#theraphy{
+  width:100%;
+  text-align:center;
+}
+.imgsize{
+  width:50%;
+  height:50%;
+}
+
+.margin{margin:5%;}
+
+.footer{
+text-align:center;
+background-color:black;
+color:white;}
+
+#scrollToTopBtn {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  display:20px;
+  padding:10px 20px;
+  background-color:#64beac;
+  color:#ffff;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  z-inex:1000;
+  
+}
+
+#scrollToTopBtn:hover{
+  background:#7ee29f;
+  
+}
